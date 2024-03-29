@@ -1,2 +1,9 @@
-com/example/primesservice/controller/PrimesController.class
+com/example/primesservice/controller/AuthenticationController.class
+com/example/primesservice/service/AuthenticationService.class
 com/example/primesservice/controller/HomeController.class
+com/example/primesservice/service/IAuthenticationService.class
+com/example/primesservice/service/TokenService.class
+com/example/primesservice/controller/PrimesController.class
+com/example/primesservice/model/Customer.class
+com/example/primesservice/repository/IAuthenticationRepository.class
+com/example/primesservice/repository/AuthenticationFileRepository.class

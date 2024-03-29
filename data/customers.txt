@@ -1,1 +1,2 @@
 john, $2a$10$lmxwMxm6V29XDGkoZ8M7rO0HH4cZZqGnLUSv50SUg8LAN1vtqBsuK
+geo, $2a$10$hZfpiExEIJAMUTqWgXblPeMi6vwdhqFVMz2XdDVEdmy7svnnxx0hG
