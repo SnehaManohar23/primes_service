@@ -1,3 +1,4 @@
+com/example/primesservice/repository/AuthenticationDBRepository.class
 com/example/primesservice/controller/AuthenticationController.class
 com/example/primesservice/service/AuthenticationService.class
 com/example/primesservice/controller/HomeController.class
