@@ -1,7 +1,14 @@
 package com.example.primesservice.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Table
+@Entity
 public class Customer {
 
+    @Id
     private String username;
     private String password;
 
@@ -19,6 +26,10 @@ public class Customer {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Customer(){
+
     }
 
     public Customer(String username, String password) {
