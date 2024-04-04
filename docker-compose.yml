@@ -43,3 +43,5 @@ services:
       environment:
         - PORT=3001
       restart: "no"
+
+#azure
