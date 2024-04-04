@@ -44,19 +44,19 @@ services:
         - PORT=3001
       restart: "no"
 
-    azure-storage:
-      image: azure-storage
-      build:
-        context: ../azure-storage-service
-        dockerfile: Dockerfile
-      container_name: azure-storage
-      ports:
-        - "4001:3002"
-      environment: 
-        - PORT=3002
-        - STORAGE_ACCOUNT_NAME=sepracticums
-        - STORAGE_ACCESS_KEY=cw8tLFyzrwWqocEuiwRIwAt/GRVw5H5J3/ykHtVLGtFNhcHKvJdEHCwJd4uaf1VzFwfaFNNUyGa6+AStVdB3fg==
-      restart: "no"
+#    azure-storage:
+#      image: azure-storage
+#      build:
+#        context: ../azure-storage-service
+#        dockerfile: Dockerfile
+#      container_name: azure-storage
+#      ports:
+#        - "4001:3002"
+#      environment:
+#        - PORT=3002
+#        - STORAGE_ACCOUNT_NAME=sepracticums
+#        - STORAGE_ACCESS_KEY=cw8tLFyzrwWqocEuiwRIwAt/GRVw5H5J3/ykHtVLGtFNhcHKvJdEHCwJd4uaf1VzFwfaFNNUyGa6+AStVdB3fg==
+#      restart: "no"
 
    #  quotation-service:
    #    image: quotation-service
