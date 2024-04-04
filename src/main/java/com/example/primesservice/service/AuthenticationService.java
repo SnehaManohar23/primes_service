@@ -12,29 +12,23 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
-
 @Service
 public class AuthenticationService implements IAuthenticationService, UserDetailsService {
 
     AuthenticationDBRepository authenticationRepository;
 
+
     public AuthenticationService(AuthenticationDBRepository authenticationRepository) {
         this.authenticationRepository = authenticationRepository;
+
     }
 
     @Override
-    public boolean register(Customer customer) throws IOException {
+    public Customer register(Customer customer) throws IOException {
         BCryptPasswordEncoder bc = new BCryptPasswordEncoder();
         String passwordEncoded = bc.encode(customer.getPassword());
         customer.setPassword(passwordEncoded);
-        try{
-            authenticationRepository.save(customer);
-            return true;
-        }
-        catch(Exception exception){
-            System.out.println(exception);
-            return false;
-        }
+        return authenticationRepository.save(customer);
     }
 
     @Override
