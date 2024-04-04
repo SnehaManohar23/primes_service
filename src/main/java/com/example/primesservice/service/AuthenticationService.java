@@ -14,7 +14,6 @@ import java.io.IOException;
 
 @Service
 public class AuthenticationService implements IAuthenticationService, UserDetailsService {
-
     AuthenticationDBRepository authenticationRepository;
 
 
