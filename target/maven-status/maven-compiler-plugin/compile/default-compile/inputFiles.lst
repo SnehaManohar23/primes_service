@@ -1,6 +1,7 @@
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/repository/AuthenticationDBRepository.java
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/security/Jwks.java
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/PrimesServiceApplication.java
+/Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/rabbitmq/MQSender.java
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/repository/AuthenticationFileRepository.java
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/service/PrimesService.java
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/service/iPrimesService.java
@@ -9,6 +10,7 @@
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/repository/IAuthenticationRepository.java
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/service/IAuthenticationService.java
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/model/Customer.java
+/Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/rabbitmq/MQConfiguration.java
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/controller/HomeController.java
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/service/AuthenticationService.java
 /Users/dharshiniharikrishnan/Desktop/primes_service/src/main/java/com/example/primesservice/service/TokenService.java

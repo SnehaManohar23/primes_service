@@ -17,6 +17,15 @@ services:
          POSTGRES_PASSWORD: password
          POSTGRES_DB: primes
 
+    history-database:
+      image: postgres:alpine
+      container_name: primes-database
+      ports:
+        - "4003:5432"
+      environment:
+        POSTGRES_PASSWORD: password
+        POSTGRES_DB: history
+
     prime-service:
       image: prime-service
       build:
@@ -51,4 +60,4 @@ services:
         - "4006:5672"
         - "4007:15672"
       restart: always
-#azure storage da
+
